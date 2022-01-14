@@ -16,7 +16,7 @@
 }
 
 html, body{
-    min-height: 100vh;
+    min-height: 100vh; /*ver depois*/
 }
 
 header{
@@ -28,6 +28,7 @@ header{
 header > h1 {
     padding-top: 50px;
     font-family: var( --fonte-titulo);
+    font-size: 3em;
 }
 
 header > p {
@@ -43,4 +44,45 @@ header > p > a {
 
 header > p > a:hover{
     text-decoration: underline;
+}
+
+section {
+    margin: 30px 0 30px 30px;
+}
+
+section > p {
+    font-family: var(--fonte-poema);
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+section.imagem {
+    background-color: gray;
+}
+
+section.imagem > p {
+    background-color: gray;
+}
+
+section.imagem1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section.imagem1 > p {
+    color: white;
+}
+
+section.imagem2{
+    background-image: url('../imagens/background002.jpg');
+}
+
+
+.foter {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+
 }
